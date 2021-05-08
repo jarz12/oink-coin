@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#titulo1{
+    font-size: 100px;
+    font-family: sans-serif; 
+    text-align: left;
+    color: purple;
+    background-image:url(fondo2.jpg);
+    padding-bottom: 20px;
+    border:blueviolet currentColor;
+   
+}
+
+.cabecera h2{
+      padding-left: 50px;
+      padding-bottom: 30px;
+      margin-top: -40px;
+      margin-bottom: 40px;
+}
+h2{
+    color:purple;
+    text-align: left;
+}
+
+header,section,body,nav,footer,hgroup,article,address{
+    display: block;
+    text-align: center;
+}
+
+.agrupar{
+    width: 1000px;
+    background-image: url(fondo.jpg);
+    margin: 30px auto;
+    padding: 20px;
+}
+body{
+    background-image: url(fondo2.jpg);
+}
+.menu{
+    text-align:left;
+    margin-top: 20px;
+    color: rgb(18, 7, 92);
+}
+
+.menu a{
+    list-style:none;
+    padding: 8px ;
+    font: bold 14px arial;
+    display:inline-block;
+    text-decoration:none;
+    
+}
+
+.seccion{
+    margin: 20px;
+    padding: 5px ;
+    width: 400px;
+    float: left; 
+    background-image: url(fondo2.jpg);  
+}
+.articulo{
+    margin: 20px;
+}
+.seccion h1{
+    color: purple;
+    margin: 5px;
+    font:bold 30px Helvetica;
+    padding: 10px;
+}
+p{
+    text-align: justify;
+    font-family: Arial;
+}
+.columna{
+    margin: 20px;
+    width: 300px;
+    border: black solid;
+    float: left;   
+}
+.pie{
+    clear: both;
+    padding-top: 80px;
+}
+img{
+    width: 400px;
+    float: left;
+    margin-top: 5px;
+    padding-left: 80px;
+    display: block;
+}
+header .fa .faceboton{
+    width: 30px;
+    padding-top: -100px;
+    display: block;
+    float: left;
+    padding-left: 900px;
+    margin-top: -50px;
+}
+
+.formulario {
+    background: blueviolet;
+    display: block;
+    float: left;
+    padding-left: 100px;
+}
