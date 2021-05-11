@@ -82,7 +82,8 @@ p{
 }
 .pie{
     clear: both;
-    padding-top: 80px;
+    padding-top: 50px;
+    padding-bottom: 100px;
 }
 img{
     width: 400px;
@@ -100,9 +101,102 @@ header .fa .faceboton{
     margin-top: -50px;
 }
 
-.formulario {
-    background: blueviolet;
-    display: block;
-    float: left;
-    padding-left: 100px;
+
+
+
+#titulo2{
+    font-size: 80px;
+    font-family: sans-serif; 
+    text-align: left;
+    color: purple;
+    background-image:url(fondo.jpg);
+    padding-bottom: 100px;
+    border:blueviolet currentColor;
+   margin: 20px;
+   margin-left: 50px;
+  
 }
+
+h3{
+  font-size: 20px;
+  font-family: sans-serif;
+  text-align: center;
+  color:white;
+  background-color: darkmagenta;
+  padding: 20px;
+}
+header .fa2 .faceboton{
+  width: 30px;
+  padding-top: -100px;
+  display: block;
+  float: left;
+  padding-left: 150px;
+  margin-top: -150px;
+}
+.numeros{
+  font-size: 20px;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
+  color: blueviolet;
+
+}
+.logoform{
+  width: 250px;
+  padding-left: 700px;
+  margin-top: -240px;
+}
+
+
+
+ 
+            
+      ul {
+        list-style: none;
+        padding: 15px;
+        margin: 10px;
+        background-image:url(fondo2.jpg);
+        margin-top: 1px;
+      }
+      
+      form li + li {
+        margin-top: 2em;
+        
+      }
+      
+      label {
+        /* Tamaño y alineación uniforme */
+        display: inline-block;
+        width: 90px;
+        text-align: center;
+      }
+      input,
+      textarea {
+        /* Para asegurarse de que todos los campos de texto tienen la misma configuración de letra
+           Por defecto, las áreas de texto tienen un tipo de letra monoespaciada */
+        font: 1em verdana;
+      
+        /* Tamaño uniforme del campo de texto */
+        width: 400px;
+        box-sizing: border-box;
+      
+        /* Hacer coincidir los bordes del campo del formulario */
+        border: 1px solid #999;
+      }
+      
+      textarea {
+        /* Alinear los campos de texto multilínea con sus etiquetas */
+        vertical-align: top;
+        /* Proporcionar espacio para escribir texto */
+        height: 5em;
+      }
+      .button {
+        /* Alinear los botones con los campos de texto */
+        padding-left: 400px; /* mismo tamaño que los elementos de la etiqueta */
+      }
+      
+      button {
+        /* Este margen adicional representa aproximadamente el mismo espacio que el espacio
+           entre las etiquetas y sus campos de texto */
+        margin-left: auto;
+      }
